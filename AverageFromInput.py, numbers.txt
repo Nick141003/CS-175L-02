@@ -1,0 +1,19 @@
+#Nicholas Stevens
+#CS 175L 02
+# AverageFromInput
+
+def main():
+    total = 0
+    count = 0
+    numbers_file = open('numbers.txt','r')
+    for line in random_numbers_file:
+        number = float(line)
+        count += 1
+        total += number
+    average = total / count
+    print("The average  of the numbers in 'numbers.txt' is:", format(average,'.2f'))           
+
+main()
+
+
+
